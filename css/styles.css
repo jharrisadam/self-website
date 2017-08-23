@@ -7,9 +7,7 @@ body {
 .profile img {
   transition: all 1000ms ease-in-out;
   align-items: center;
-  border-width: 15px;
-  border-color: black;
-
+  border: 3px solid black;
 }
 
 .profile img:hover {
@@ -19,9 +17,15 @@ body {
 table.center {
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 75%;
+}
+
+.projects th {
+  width: 300px;
+  border: 1px solid black;
 }
 
 .projects td {
   width: 300px;
+  border: 1px solid black;
 }
