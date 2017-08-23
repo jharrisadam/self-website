@@ -1,0 +1,27 @@
+body {
+  font-family: 'Mukta Malar', arial, sans-serif;
+  background-color: #6d9ace;
+  text-align: center;
+}
+
+.profile img {
+  transition: all 1000ms ease-in-out;
+  align-items: center;
+  border-width: 15px;
+  border-color: black;
+
+}
+
+.profile img:hover {
+  filter: invert(100%);
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.projects td {
+  width: 300px;
+}
